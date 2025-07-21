@@ -1,0 +1,100 @@
+
+    header {
+      background-color: #FDF2E9;
+
+    }
+    .navbar .nav-link {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .btn1{
+    font-size: 18px;
+    font-weight: 500;
+    background-color:transparent ;
+     border-radius: 8px; 
+     padding: 5px 15px;
+     border: 2px solid #e67e22;
+     color: #e67e22;
+  }
+  .btn1:hover{
+    background-color: #e67e22;
+    color: white;
+  }
+  .btn2{  
+    font-size: 18px;
+    font-weight: 500;
+    background-color:transparent ;
+    border-radius: 8px; 
+    padding: 5px 15px;
+    border: 2px solid #e67e22;
+    color: #e67e22;
+  }
+  .btn2:hover{
+    background-color: #e67e22;
+    color: white;
+  }
+  
+    .people-imgs img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid white;
+      margin-left: -10px;
+    }
+
+    .people-imgs img:first-child {
+      margin-left: 0;
+    }
+
+    .card , .card-img-top , .badge{
+        border-radius: 8px;
+    }
+    .mb-1 i{
+        color: #e67e22;
+        padding-right: 5px;
+        font-size: 18px;
+    }
+    .mb-1 span{
+        font-size: 18px;
+        font-weight: 500;
+        color: #8a8983;
+    }
+    .see-all-recipes p{
+        font-size: 20px;
+        color: #e67e22;
+        cursor: pointer;
+    }
+
+    .footer p{
+        color: #8a8983;
+        font-weight: 500;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .footer h5{
+        font-weight: 500;
+        font-size: 20px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .footer h5:hover{
+      transform: scale(1.1);
+    }
+    .footer p:hover{
+      transform: scale(1.1);
+      color: black;
+    }
+    .card-div{
+        transition: 0.5s;
+    }
+    .card-div:hover{
+        transform: scale(1.1);
+    }
+    .list-div div{
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .list-div div:hover{
+        transform: scale(1.1);
+    }
